@@ -15,16 +15,10 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ms-auto">
-                    <Link className="text-white ms-5" to="/admin">
+                    <Link className="text-white ms-5" to="/addArticle">
                         Admin
                     </Link>
-                    <Link className="text-white ms-5" to="/dashboard">
-                        Dashboard
-                    </Link>
-                    <>
-                        {/* <Nav.Link>{loggedInUser.email}</Nav.Link> */}
-                        <Link className="text-white ms-5" to="/login">Logout</Link>
-                    </>
+
                     <Link className="text-white ms-5" to="/login">
                         Login
                     </Link>
